@@ -310,7 +310,7 @@ function onLoad()
 		--alternative format:
 		--callback_function = |obj| spawn_callback(obj, futureName, "Red")
 	}
-	spawnObject(spawnParams)
+	spawnObjectJSON(spawnParams)
 end
 
 function spawn_callback(object_spawned, name, color)
